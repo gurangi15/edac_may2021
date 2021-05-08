@@ -1,0 +1,263 @@
+class A1
+{
+   public static void main(String args[])
+  {
+     System.out.println("Hello");
+     System.out.println("Alexandra Abramov");//
+
+    }
+}
+--------------------------------------
+---------------------------------------
+ 
+// queation 2
+
+ public class A2
+{
+   public static void main(String args[])
+  {
+      int a=74;
+      int b=36, sum;
+      sum=a+b;
+      System.out.println(sum);
+}
+}
+
+
+
+================================
+public class A3
+{
+    public static void main(String args[])
+   {
+
+     int div= 50/3;
+     System.out.print(div);
+}
+}
+======================================
+
+
+public class A4
+{
+    public static void main(String args[])
+   {
+     int a= -5+8*6;
+     int b= (55+9)%9;
+     int c=  20+ -3*5/8;
+     int d=  5+15/3*2-8%3;
+     System.out.println(a);
+     System.out.println(b);
+     System.out.println(c);
+     System.out.println(d);
+
+}
+}
+==========================================
+
+import java.util.Scanner;// with user input
+public class A5
+{
+   public static void main(String argc[])
+    {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the two numbers");
+        int i= sc.nextInt();
+        int j= sc.nextInt();
+        int mul= i*j;
+        System.out.println(mul);
+
+}
+
+}
+=============================================
+public class A6
+{
+   public static void main(String args[])
+{
+    int a =25;
+    int b =5;
+    int mul = 25*5;
+    System.out.println(mul);
+}
+}
+
+=================================================
+public class A7
+{
+   public static void main(String args[])
+  {
+     int a = 125;
+     int b = 24;
+     int result = a+b;
+    System.out.println("result="+(a+b));
+      result = a-b;
+    System.out.println("result="+(a-b));
+    result = a*b;
+    System.out.println("result="+(a*b));
+    result = a/b;
+    System.out.println("result="+(a/b));
+    result = a%b;
+    System.out.println("result="+(a%b));
+ }
+
+}
+===============================================
+import java.util.Scanner;
+public class A8
+{
+    public static void main(String args[])
+   {
+        int n,i;
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter the number");
+         n =s.nextInt();
+     for(i=1;i<=10;i++)
+  {
+      System.out.println(n+ " * "+i+ " = "+n*i);
+  }
+}
+}
+=======================================================
+public class A9
+{
+    public static void main(String args[])
+    {
+      System.out.println((25.5*3.5-3.5*3.5)/(40.5-4.5));
+}
+}
+
+===========================================================
+public class A10
+{
+     public static void main(String args[])
+  {
+     System.out.println(4.0*(1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11)));
+  }
+} 
+=========================================================================
+import java.util.*;
+
+class A11
+{
+    public static void main(String args[])
+     {
+
+         double r;
+         double x,y;
+         Scanner s=new Scanner(System.in);
+         System.out.println(" circle of radius is:");
+          
+           r = s.nextDouble();
+           x = 3.14*r*r;
+           y = 2*3.14*r;
+
+         System.out.println(" area of circle:" +x);
+         System.out.println(" area of perimeter:" +y);
+        }
+}
+
+===========================================================
+import java.util.Scanner;
+class A12
+{
+    public static void main(String args[])
+    {
+       int a,b,c;
+       float avg;
+       Scanner s=new Scanner(System.in);
+       System.out.println("enter the three numbers");
+       a= s.nextInt();
+       b= s.nextInt();
+       c= s.nextInt();
+       avg =(a+b+c)/3;
+       System.out.println("avg:"+avg);
+    
+     }
+}
+
+
+===================================================================
+
+import java .util.*;
+
+class A15
+{
+    public static void main(String args[])
+
+    {
+       
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter a");
+         int a =s.nextInt();
+         System.out.println("enter b");
+          int b =s.nextInt();
+          int swap  =  a;
+            a   =  b;
+            b   =  swap;
+           System.out.println("int a ="+a);
+           System.out.println("int b ="+b);
+      }
+}
+
+
+===========================================================
+
+public class A16
+{
+    public static void main(String args[])
+   {
+          System.out.println("   +\"\"\"\"\"+");
+          System.out.println("  [| o  o |]");
+          System.out.println("   |  ^   |");
+          System.out.println("   | '-'  |");
+          System.out.println("   +------+");
+    } 
+}
+=============================================================
+
+
+
+import java.math.*;
+  class A17
+{
+    public static void main(String args[])
+    {
+       int k =4;
+       int l =3;
+       System.out.println(Integer.toBinaryString(k));
+       System.out.println(Integer.toBinaryString(l));
+       System.out.println("addtion of binary: "+Integer.toBinaryString(k+l));
+     }
+}
+
+
+==========================================================
+
+
+
+class A19
+{
+   public static void main(String args[])
+    {
+       int no = 5;
+       System.out.println("decimal to binary");
+       long binary = convertDecimalToBinary(no);
+       System.out.println("\n" +no + " = " +binary);
+    }
+ public static long convertDecimalToBinary(int n)
+  {
+    long binaryno = 0;
+    int rem,i =1;
+     
+
+   while(n!=0)
+  {
+       rem = n%2;
+       n /= 2;   //is n=n/2
+       binaryno += rem * i;
+       i *= 10;    //i =i*10
+  }
+     return binaryno;
+}
+}

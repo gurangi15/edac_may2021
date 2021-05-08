@@ -1,0 +1,407 @@
+public class p1
+{
+    public static void main(String[] args)
+   {
+       for(int i=1;i<=5;i++)   ///row
+      {
+        for(int j=1;j<=i;j++)  // column
+        { 
+           System.out.print(j);
+     
+         }
+         
+         System.out.println();
+     }
+   }
+}
+=========================================================
+public class p2
+{
+    public static void main(String[] args)
+   {
+       for(int i=1;i<=5;i++)   ///row
+      {
+        for(int j=1;j<=i;j++)  // column
+        { 
+           System.out.print(i);
+     
+         }
+         
+         System.out.println();
+     }
+   }
+}
+============================================================
+public class p3
+{
+    public static void main(String args[])
+   {
+
+     for(int i=1; i<=5;i++) 
+     {
+        for(int j=5;j>=i;j--)
+         {  
+        System.out.print(" ");
+        }
+          for(int k=1;k<=i;k++)
+        {
+     
+         System.out.print(k+" ");
+        }
+        System.out.println();
+}
+}
+}
+==============================================================
+public class p4
+{
+    public static void main(String args[])
+    {
+      int alpha =64;
+      for(int i=1;i<=6;i++)//row
+    {
+      for(int j=1;j<=i;j++)
+      {
+          System.out.print((char)(alpha+j)+" ");
+       }
+     System.out.println();
+   }
+}   
+} 
+
+================================================================
+
+public class p5
+{
+    public static void main(String args[])
+    {
+      int alpha =64;
+      for(int i=1;i<=6;i++)//row
+    {
+      for(int j=1;j<=i;j++)
+      {
+          System.out.print((char)(alpha+i)+" ");
+       }
+     System.out.println();
+   }
+}   
+} 
+================================================================
+
+
+public class p9
+{
+    public static void main(String args[])
+    {
+      int alpha =64;
+      for(int i=1;i<=6;i++)//row
+    {
+      for(int j=5;j>=i;j--)
+      {
+
+          System.out.print(" ");
+      } 
+
+         for(int k=1;k<=i;k++)
+       {
+          System.out.print((char)(alpha+k)+" ");
+       }
+     System.out.println();
+   }
+}   
+} 
+==================================================
+public class p11
+{
+    public static void main(String args[])
+  {
+
+      for(int i=1; i<=5; i++)  //row
+        { 
+        for(int j=5;j>=i;j--)   // space
+        {
+         System.out.print(" ");
+         }
+
+     for(int k=1;k<=i;k++) 
+   { 
+       System.out.print("*");
+   }
+      for(int l=2;l<=i;l++) 
+    {
+      System.out.print("*");
+     } 
+  
+        System.out.println();
+    }
+  }
+}
+===================================================================
+
+
+
+public class p13
+{
+    public static void main(String args[])
+    {
+      int alpha =64;
+      for(int i=1;i<=6;i++)//row
+    {
+      for(int j=5;j>=i;j--)
+      {
+
+          System.out.print(" ");
+      } 
+
+         for(int k=1;k<=i;k++)
+       {
+          System.out.print((char)(alpha+i)+" ");
+       }
+     System.out.println();
+   }
+}   
+} 
+
+===========================================================
+public class p17
+{
+     public static void main(String args[])
+     {
+        int count =0;
+      for(int i=1;i<=5;i++)
+      {
+        for(int j=1;j<=i;j++)
+        {
+
+            count=count+1;
+           System.out.print(count+" ");
+        }
+          System.out.println();
+     }
+    }
+}
+===========================================================
+
+
+
+public class Pattern1
+{
+    public static void main(String args[])
+    {
+     
+       for(int i=1;i<=5;i++)
+       {         
+         for(int j=1;j<=i;j++)
+          {
+          System.out.print("*");
+          }
+        
+         System.out.println();
+
+       }
+ }
+}
+========================================================
+
+public class pattern2
+{
+    public static void main(String args[])
+    {
+      for(int i=1;i<=5;i++) //row
+     {
+        for(int j=4;j>=i;j--) // space
+         { 
+        System.out.print(" ");
+         
+         }
+         for(int k=1;k<=i;k++)
+          {
+         
+          System.out.print("*");
+           }
+        System.out.println();
+     }
+  }
+}
+=======================================================
+
+
+public class Pattern3
+{
+    public static void main(String args[])
+    {
+     
+       for(int i=1;i<=5;i++)
+       {         
+         for(int j=5;j>=i;j--)
+          {
+          System.out.print("*");
+          }
+        
+         System.out.println();
+
+       }
+ }
+}
+
+===========================================================
+
+
+public class Pattern4
+{
+    public static void main(String args[])
+    {
+     
+       for(int i=1;i<=5;i++)
+       {         
+         for(int j=5;j>=i;j--)
+          {
+          System.out.print("*");
+          }
+        
+         System.out.println();
+
+       }
+ }
+}
+
+=========================================================
+
+
+public class pattern5
+{
+    public static void main(String args[])
+  {
+
+      for(int i=1; i<=5; i++)  //row
+        { 
+        for(int j=5;j>=i;j--)   // space
+        {
+         System.out.print(" ");
+         }
+
+     for(int k=1;k<=i;k++) 
+   { 
+       System.out.print("*");
+   }
+      for(int l=2;l<=i;l++) 
+    {
+      System.out.print("*");
+     } 
+  
+        System.out.println();
+    }
+  }
+}
+======================================================
+
+public class pattern6
+{
+    public static void main(String args[])
+  {
+
+      for(int i=1; i<=5; i++)  //row
+        { 
+        for(int j=5;j>=i;j--)   // space
+        {
+         System.out.print(" ");
+         }
+
+     for(int k=4;k>=i;k--) 
+   { 
+       System.out.print("*");
+   }
+      for(int l=2;l<=i;l++) 
+    {
+      System.out.print("*");
+     } 
+  
+        System.out.println();
+    }
+  }
+}
+
+====================================================
+
+public class pattern9
+{
+    public static void main(String args[])
+    {
+         for(int i=5;i<=5;i++)
+          {
+            for(int j=4;j>=i;j--)
+             {
+             System.out.print("");
+            }
+      for(int k=1;k<=i;k++)
+
+       {
+         System.out.print("*");
+        }
+      System.out.println();
+}
+    for(int i=1;i<=5;i++)
+          {
+            for(int j=1;j<=i;j++)
+             {
+             System.out.print("");
+            }
+      for(int k=3;k>=i;k--)
+
+       {
+         System.out.print("*");
+        }
+      System.out.println();
+
+     }
+}
+}
+
+===================================================================
+public class pr6
+{    
+     public static void main(String args[])
+     {
+        for(int i=1;i<=5;i++) //row
+       {
+   
+           for(int j=4;j>=i;j--)  // space
+       {   
+
+          System.out.print("");
+       }
+      for(int k=1;k<=i;k++)
+
+     {
+        System.out.print("*");
+      }
+
+       System.out.println();
+
+   }
+}}
+
+======================================================
+public class Fullpyramid
+{
+   public static void main(String args[])
+     {
+     for(int i=1;i<=6;i++)
+     {
+    for(int j=6;j>=1;j--)
+    {   
+      
+       if(j>i)
+       System.out.print(" ");
+       else
+       System.out.print(" *");
+      }
+      System.out.println();
+     }
+  }
+}
+
+
+
+
+
